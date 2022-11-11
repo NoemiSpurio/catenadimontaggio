@@ -1,10 +1,13 @@
 package it.prova.catenadimontaggio.dao.slotcatenadimontaggio;
 
+import org.springframework.stereotype.Component;
+
 import it.prova.catenadimontaggio.dao.DbMock;
 import it.prova.catenadimontaggio.model.Automobile;
 import it.prova.catenadimontaggio.model.SlotCatenaDiMontaggio;
 
-public class SlotCatenaDiMontaggioImpl implements SlotCatenaDiMontaggioDAO {
+@Component
+public class SlotCatenaDiMontaggioDAOImpl implements SlotCatenaDiMontaggioDAO {
 
 	@Override
 	public SlotCatenaDiMontaggio get(Long id) {
