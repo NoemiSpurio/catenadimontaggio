@@ -8,6 +8,7 @@ public class Automobile {
 	private String modello;
 	private String telaio;
 	private Date dataProduzione;
+	private SlotCatenaDiMontaggio catenaDiMontaggio;
 
 	public Automobile() {
 		super();
@@ -51,6 +52,14 @@ public class Automobile {
 
 	public void setDataProduzione(Date dataProduzione) {
 		this.dataProduzione = dataProduzione;
+	}
+
+	public SlotCatenaDiMontaggio getCatenaDiMontaggio() {
+		return catenaDiMontaggio;
+	}
+
+	public void setCatenaDiMontaggio(SlotCatenaDiMontaggio catenaDiMontaggio) {
+		this.catenaDiMontaggio = catenaDiMontaggio;
 	}
 
 }
