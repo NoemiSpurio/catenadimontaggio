@@ -62,4 +62,10 @@ public class Automobile {
 		this.catenaDiMontaggio = catenaDiMontaggio;
 	}
 
+	@Override
+	public String toString() {
+		return "Automobile [id=" + id + ", modello=" + modello + ", telaio=" + telaio + ", dataProduzione="
+				+ dataProduzione + "]";
+	}
+
 }

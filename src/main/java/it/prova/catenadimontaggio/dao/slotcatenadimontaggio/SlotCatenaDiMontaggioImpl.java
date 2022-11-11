@@ -1,7 +1,5 @@
 package it.prova.catenadimontaggio.dao.slotcatenadimontaggio;
 
-import java.util.stream.Collectors;
-
 import it.prova.catenadimontaggio.dao.DbMock;
 import it.prova.catenadimontaggio.model.Automobile;
 import it.prova.catenadimontaggio.model.SlotCatenaDiMontaggio;
